@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="-138dp"
+        tools:layout_editor_absoluteY="-85dp">
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="290dp"
+            android:layout_height="51dp"
+            android:background="@drawable/rounded_corners"
+            android:text="FINISH"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:ignore="MissingConstraints"
+
+            tools:layout_editor_absoluteY="583dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="367dp"
+            android:layout_height="54dp"
+            android:background="@drawable/textbox"
+            android:gravity="center"
+            android:text="For ex. headache"
+            android:textColor="#A6A6A6"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CVV"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="343dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expiration date"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="447dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="367dp"
+            android:layout_height="54dp"
+            android:background="@drawable/textbox"
+            android:gravity="center"
+            android:text="For ex. 10/23"
+            android:textColor="#A6A6A6"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="482dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="367dp"
+            android:layout_height="54dp"
+            android:background="@drawable/textbox"
+            android:gravity="center"
+            android:text="For ex. therapist"
+            android:textColor="#A6A6A6"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="375dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card number"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="232dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="367dp"
+            android:layout_height="54dp"
+            android:background="@drawable/textbox"
+            android:gravity="center"
+            android:text="For ex. XXXX-XXXX-XXXX-XXXX"
+            android:textColor="#A6A6A6"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="367dp"
+            android:layout_height="54dp"
+            android:background="@drawable/textbox"
+            android:gravity="center"
+            android:text="For ex. 777"
+            android:textColor="#A6A6A6"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="375dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

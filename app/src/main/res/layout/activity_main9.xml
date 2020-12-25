@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin panel"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="e-mail"
+        android:textColor="#A6A6A6"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"
+        android:textColor="#A6A6A6"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="first name"
+        android:textColor="#A6A6A6"
+        tools:layout_editor_absoluteX="28dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="last name"
+        android:textColor="#A6A6A6"
+        tools:layout_editor_absoluteX="28dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="role"
+        android:textColor="#A6A6A6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"
+        android:textColor="#A6A6A6"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="290dp"
+        android:layout_height="51dp"
+        android:background="@drawable/rounded_corners2"
+        android:text="REGISTER"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="60dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="584dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
